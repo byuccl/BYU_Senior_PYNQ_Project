@@ -34,3 +34,11 @@ dependencies:
 * run /Pynq-Z1/bitstream/base.tcl from /Pynq-Z1/vivado/base/ (~2 hours)
 * run /Pynq-Z1/vivado/Partial_Designs/build_static_design.tcl from /Pynq-Z1/vivado/Partial_Designs/ (~ 1 hour)
 * run /Pynq-Z1/vivado/Partial_Designs/part_proj_gen.tcl from /Pynq-Z1/vivado/Partial_Designs/ (~4 hours)
+
+The bitstreams are located in /Pynq-Z1/vivado/Partial_Designs/Bitstreams.
+There is a full bitstream and a partial bitstream for each design.
+
+There is a shortcut, "pynq", on the pynq home folder to go to /usr/local/lib/python3.4/dist-packages/pynq/
+Move bitstreams into pynq/bitstream/ on the pynq
+Move /Pynq-Z1/Python into pynq/ on the pynq
+Move /Pynq-Z1/notebooks/Video_PR into ~/jupyter_notebooks/ on the pynq
