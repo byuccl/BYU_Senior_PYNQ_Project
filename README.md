@@ -25,7 +25,8 @@ The "Demo ALL!" provides an example of how quickly you can change between partia
 
 ## Build and add to
 dependencies:
-* Vivado 2016.3
+* Vivado 2016.3 (WebPack License)
+* +License for PartialReconfiguration
 * The Pynq Board files must be copied over to to ../Vivado/data/boards/board_files
 
 2017 BYU Senior ECEN PYNQ Video Project
