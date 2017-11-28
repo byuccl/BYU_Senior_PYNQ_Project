@@ -31,6 +31,6 @@ dependencies:
 
 2017 BYU Senior ECEN PYNQ Video Project
 
-* run /Pynq-Z1/bitstream/base.tcl from /Pynq-Z1/vivado/base/
-* run /Pynq-Z1/vivado/Partial_Designs/build_static_design.tcl from /Pynq-Z1/vivado/Partial_Designs/
+* run /Pynq-Z1/bitstream/base.tcl from /Pynq-Z1/vivado/base/ (~2 hours)
+* run /Pynq-Z1/vivado/Partial_Designs/build_static_design.tcl from /Pynq-Z1/vivado/Partial_Designs/ (~ 1 hour)
 * run /Pynq-Z1/vivado/Partial_Designs/part_proj_gen.tcl from /Pynq-Z1/vivado/Partial_Designs/
