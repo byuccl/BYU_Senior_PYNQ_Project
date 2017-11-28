@@ -38,7 +38,7 @@ dependencies:
 The bitstreams are located in /Pynq-Z1/vivado/Partial_Designs/Bitstreams.
 There is a full bitstream and a partial bitstream for each design.
 
-There is a shortcut, "pynq", on the pynq home folder to go to /usr/local/lib/python3.4/dist-packages/pynq/
-Move bitstreams into pynq/bitstream/ on the pynq
-Move /Pynq-Z1/Python into pynq/ on the pynq
-Move /Pynq-Z1/notebooks/Video_PR into ~/jupyter_notebooks/ on the pynq
+* There is a shortcut, "pynq", on the pynq home folder to go to /usr/local/lib/python3.4/dist-packages/pynq/
+* Move bitstreams into pynq/bitstream/ on the pynq
+* Move /Pynq-Z1/Python into pynq/ on the pynq
+* Move /Pynq-Z1/notebooks/Video_PR into ~/jupyter_notebooks/ on the pynq
