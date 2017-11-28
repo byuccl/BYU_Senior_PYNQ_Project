@@ -1,6 +1,7 @@
 # BYU_Senior_PYNQ_Project
 dependencies:
-The Pynq Board files must be copied over to to ../Vivado/data/boards/board_files
+* Vivado 2016.3
+* The Pynq Board files must be copied over to to ../Vivado/data/boards/board_files
 
 2017 BYU Senior ECEN PYNQ Video Project
 
