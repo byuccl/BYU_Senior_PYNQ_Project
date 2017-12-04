@@ -98,14 +98,12 @@ set proj_dir [get_property directory [current_project]]
 
 # Set project properties
 set obj [get_projects img_overlay_256color]
-set_property "board_part" "digilentinc.com:pynq:part0:1.0" $obj
 set_property "default_lib" "xil_defaultlib" $obj
 set_property "ip_cache_permissions" "read write" $obj
-set_property "ip_output_repo" "C:/PYNQ/WORK/Pynq-Z1/vivado/Partial_Designs/Source/img_overlay_256color/img_overlay_256color/img_overlay_256color/img_overlay_256color.cache/ip" $obj
+set_property "part" "xc7z020clg400-1" $obj
 set_property "sim.ip.auto_export_scripts" "1" $obj
 set_property "simulator_language" "Mixed" $obj
 set_property "source_mgmt_mode" "None" $obj
-set_property "xpm_libraries" "XPM_MEMORY" $obj
 set_property "xsim.array_display_limit" "64" $obj
 set_property "xsim.trace_limit" "65536" $obj
 

@@ -88,7 +88,7 @@ if { $::argc > 0 } {
 set orig_proj_dir "[file normalize "$origin_dir/img_overlay_duotone"]"
 
 # Create project
-create_project img_overlay_duotone ./img_overlay_duotone -part xc7vx485tffg1157-1
+create_project img_overlay_duotone ./img_overlay_duotone -part xc7z020clg400-1
 
 # Set the directory path for the new project
 set proj_dir [get_property directory [current_project]]
@@ -100,11 +100,10 @@ set proj_dir [get_property directory [current_project]]
 set obj [get_projects img_overlay_duotone]
 set_property "default_lib" "xil_defaultlib" $obj
 set_property "ip_cache_permissions" "read write" $obj
-set_property "ip_output_repo" "C:/PYNQ/WORK/Pynq-Z1/vivado/Partial_Designs/Source/img_overlay_duotone/img_overlay_duotone/img_overlay_duotone.cache/ip" $obj
+set_property "part" "xc7z020clg400-1" $obj
 set_property "sim.ip.auto_export_scripts" "1" $obj
 set_property "simulator_language" "Mixed" $obj
 set_property "source_mgmt_mode" "None" $obj
-set_property "xpm_libraries" "XPM_MEMORY" $obj
 set_property "xsim.array_display_limit" "64" $obj
 set_property "xsim.trace_limit" "65536" $obj
 
@@ -178,7 +177,7 @@ set_property "xelab.unifast" "" $obj
 
 # Create 'synth_1' run (if not found)
 if {[string equal [get_runs -quiet synth_1] ""]} {
-  create_run -name synth_1 -part xc7vx485tffg1157-1 -flow {Vivado Synthesis 2016} -strategy "Vivado Synthesis Defaults" -constrset constrs_1
+  create_run -name synth_1 -part xc7z020clg400-1 -flow {Vivado Synthesis 2016} -strategy "Vivado Synthesis Defaults" -constrset constrs_1
 } else {
   set_property strategy "Vivado Synthesis Defaults" [get_runs synth_1]
   set_property flow "Vivado Synthesis 2016" [get_runs synth_1]
@@ -190,7 +189,7 @@ current_run -synthesis [get_runs synth_1]
 
 # Create 'impl_1' run (if not found)
 if {[string equal [get_runs -quiet impl_1] ""]} {
-  create_run -name impl_1 -part xc7vx485tffg1157-1 -flow {Vivado Implementation 2016} -strategy "Vivado Implementation Defaults" -constrset constrs_1 -parent_run synth_1
+  create_run -name impl_1 -part xc7z020clg400-1 -flow {Vivado Implementation 2016} -strategy "Vivado Implementation Defaults" -constrset constrs_1 -parent_run synth_1
 } else {
   set_property strategy "Vivado Implementation Defaults" [get_runs impl_1]
   set_property flow "Vivado Implementation 2016" [get_runs impl_1]
